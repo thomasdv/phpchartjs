@@ -217,7 +217,7 @@ class Options implements ChartOwnedInterface, ArraySerializableInterface, JsonSe
     /**
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize() : mixed
     {
         return $this->getArrayCopy();
     }
