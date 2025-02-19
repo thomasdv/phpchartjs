@@ -16,12 +16,18 @@
       "name": "Bob Kruithof"
     }
   ],
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/thomasdv/collection.git"
+      }
+  ],
   "require": {
     "php": ">=5.6.0 || ^7.0 || ^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4",
     "ext-dom": "*",
     "ext-json": "*",
     "laminas/laminas-json": "3.7.1",
-    "halfpastfouram/collection": "1.0.0",
+    "thomasdv/collection": "1.0.0",
     "symfony/var-dumper": "^3.4"
   },
   "require-dev": {
