@@ -16,6 +16,10 @@
       "name": "Bob Kruithof"
     }
   ],
+
+   "minimum-stability": "dev",
+   "prefer-stable": true,
+
   "repositories": [
       {
           "type": "vcs",
